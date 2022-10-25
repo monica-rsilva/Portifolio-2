@@ -37,10 +37,6 @@ section{
     height: 100vh;
 }
 
-.projetos{
-    background-color: darksalmon;
-    width: 100%;
-}
 .contato{
     background-color: indianred;
     width: 100% ;
@@ -49,7 +45,10 @@ section{
 footer{
     grid-area: content;
     place-self: end center;
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color: #0005;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid #fff;
+    font-size: .75rem;
 }
