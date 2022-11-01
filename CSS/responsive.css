@@ -1,0 +1,74 @@
+/* Tablet */
+@media (max-width:960px){
+   
+    header{
+        justify-content: space-around;
+    }
+
+    .home{
+        height: 900px;
+    }
+
+    .section-title{
+        font-size: 180px;
+    }
+
+    .profile{
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .sobre-mim{
+        display: flex;
+        height: 1100px;
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .description, .skills{
+        padding-left: 36px;
+        gap: 48px;
+    }
+
+    .description__text{
+        font-size: 1.5rem;
+        width: 90%;
+        line-height: 170%;
+    }
+
+    .skills{
+        align-items: center;
+    }
+
+    .skills__container{
+        justify-content: space-between;
+        gap:16px;
+        width: 600px;
+    }
+
+    .projetos{
+        height: 3100px;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card img{
+        width: 672px;
+        height: 420px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:640px){
+    
+}

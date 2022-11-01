@@ -40,7 +40,7 @@
 .social{
     width: 64px;
     height: 64px;
-    color: var(--icon-color);
+    background-color: var(--icon-color);
     display: grid;
     place-content: center;
     font-size: 2rem;
